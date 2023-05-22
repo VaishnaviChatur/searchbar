@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaSearch } from "react-icons/fa";
-
-
 import styles from './searchbar.module.css'
+
+
 const AutoMatchingSearch = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [matchedStates, setMatchedStates] = useState([]);
